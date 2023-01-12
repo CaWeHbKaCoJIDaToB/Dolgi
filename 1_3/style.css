@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "monsert";
+    src: url(ofont.ru_Montserrat.ttf);
+}
+
+.one {
+    background-color: rgb(167, 196, 37);
+    width: 160px;
+    height: 220px;
+    border-radius: 0px 16px 16px 16px;
+    position: absolute;
+}
+
+.one:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-top: 50px solid white;
+    border-right: 50px solid rgb(208, 230, 114);
+    border-radius: 0px 0px  16px;
+}
+
+.two {
+    background-color: rgb(102, 119, 25) ;
+    width: 115px;
+    height: 72px;
+    position: absolute;
+    top: 100px;
+    left: 30px;
+    border-radius: 7px;
+}
+
+.three {
+    position: absolute;
+    font-family: "monsert";
+    font-size: 40px;
+    line-height: 100px;
+    color: white;
+    top: 85px;
+    left: 45px;
+}
